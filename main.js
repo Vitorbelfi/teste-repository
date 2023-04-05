@@ -13,17 +13,31 @@ function exibenome()
     document.getElementById("mensagem").innerHTML = "Meu nome é:" + usuario;
     document.getElementById("nome").value="";
 }
-document.querySelector( 'button' )
-.addEventListener( 'click', handleClick, false );
-
-function handleClick() {
-var number1 = document.querySelector( '[data-js="number1"]').value;
-var number2 = document.querySelector( '[data-js="number2"]').value;
-
-document.querySelector( '[data-js="result"]' ).innerHTML = sum( number1, number2 );
+function somarvalores()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    let numero3 = parseFloat(numero1) + parseFloat(numero2)
+    document.getElementById("resultado1").innerHTML = "number1:" + numero3;
 }
-
-function sum( number1, number2 ) {
-return number1 + number2;
+function dividirvalores()
+{
+    let numero1 = document.getElementById("num3").value;
+    let numero2 = document.getElementById("num4").value;
+    document.getElementById("mensagem").innerHTML = "resultado:" + usuario;
 }
+function multiplicarvalores()
+{
+    let numero1 = document.getElementById("num5").value;
+    let numero2 = document.getElementById("num6").value;
+    document.getElementById("mensagem").innerHTML = "resultado:" + usuario;
+}
+function subtrairvalores()
+{
+    let numero1 = document.getElementById("num7").value;
+    let numero2 = document.getElementById("num8").value;
+    document.getElementById("mensagem").innerHTML = "resultado:" + usuario;
+}
+  
+    
 
