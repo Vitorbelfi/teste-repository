@@ -22,6 +22,27 @@ function somarvalores()
     let numero3 = parseFloat(numero1) + parseFloat(numero2)
     document.getElementById("resultado1").innerHTML = " = " + numero3;
 }
+function dividirvalores()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    let numero3 = parseFloat(numero1) + parseFloat(numero2)
+    document.getElementById("resultado1").innerHTML = " = " + numero3;
+}
+function multiplicarvalores()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    let numero3 = parseFloat(numero1) + parseFloat(numero2)
+    document.getElementById("resultado1").innerHTML = " = " + numero3;
+}
+function subtrairvalores()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    let numero3 = parseFloat(numero1) + parseFloat(numero2)
+    document.getElementById("resultado1").innerHTML = " = " + numero3;
+}
 
   
     
